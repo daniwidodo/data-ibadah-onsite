@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'data-jemaat-details/:ibadahId',
+    loadChildren: () => import('./data-jemaat-details/data-jemaat-details.module').then( m => m.DataJemaatDetailsPageModule)
+  },
 ];
 
 @NgModule({
