@@ -1,0 +1,7 @@
+{
+  "name": "data-ibadah-onsite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

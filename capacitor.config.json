@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "data-ibadah-onsite",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
