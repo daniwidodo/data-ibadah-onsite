@@ -1,20 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div style="margin-left: 5%;margin-right: 5%;">
+    <h1>Daftar Jemaat yang sudah terdaftar</h1>
+    <h5>Pada Ibadah : {{ibadahName}}</h5>
+    <h5>Jemaat yang terdaftar : {{jumlahJemaat}}</h5>
+    <ol >
+      <li *ngFor=" let jemaat of dataJemaat">{{jemaat.namaLengkap}}</li>
+    </ol>
   </div>
+
 </ion-content>
